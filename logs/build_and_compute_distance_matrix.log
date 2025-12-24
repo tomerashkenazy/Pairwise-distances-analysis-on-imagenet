@@ -1,0 +1,29 @@
+2025-12-24 15:10:30,179 - INFO - Starting script...
+2025-12-24 15:10:30,179 - INFO - Computing distance matrix with p = 1
+2025-12-24 15:10:30,179 - INFO - Building dataset...
+2025-12-24 15:10:30,229 - INFO - Dataset has 200 images.
+2025-12-24 15:10:30,293 - INFO - Using device: cuda
+2025-12-24 15:10:30,571 - INFO - [A] Batch 1/8
+2025-12-24 15:10:30,792 - INFO - [A] Batch 2/8
+2025-12-24 15:10:30,982 - INFO - [A] Batch 3/8
+2025-12-24 15:10:31,168 - INFO - [A] Batch 4/8
+2025-12-24 15:10:31,360 - INFO - [A] Batch 5/8
+2025-12-24 15:10:31,563 - INFO - [A] Batch 6/8
+2025-12-24 15:10:31,754 - INFO - [A] Batch 7/8
+2025-12-24 15:10:31,943 - INFO - [A] Batch 8/8
+2025-12-24 15:10:32,128 - INFO - Saving results...
+2025-12-24 15:10:32,130 - INFO - Done: results_imagenet_stats/val_dist_matrix_l1.pt
+2025-12-24 15:10:32,132 - INFO - Computing distance matrix with p = inf
+2025-12-24 15:10:32,132 - INFO - Building dataset...
+2025-12-24 15:10:32,183 - INFO - Dataset has 200 images.
+2025-12-24 15:10:32,184 - INFO - Using device: cuda
+2025-12-24 15:10:32,306 - INFO - [A] Batch 1/8
+2025-12-24 15:10:32,510 - INFO - [A] Batch 2/8
+2025-12-24 15:10:32,706 - INFO - [A] Batch 3/8
+2025-12-24 15:10:32,931 - INFO - [A] Batch 4/8
+2025-12-24 15:10:33,132 - INFO - [A] Batch 5/8
+2025-12-24 15:10:33,344 - INFO - [A] Batch 6/8
+2025-12-24 15:10:33,547 - INFO - [A] Batch 7/8
+2025-12-24 15:10:33,733 - INFO - [A] Batch 8/8
+2025-12-24 15:10:33,944 - INFO - Saving results...
+2025-12-24 15:10:33,945 - INFO - Done: results_imagenet_stats/val_dist_matrix_linf.pt
