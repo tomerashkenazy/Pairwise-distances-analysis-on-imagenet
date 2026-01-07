@@ -1,0 +1,163 @@
+2026-01-07 01:59:29,541 - INFO - Loading ImageNet labels...
+2026-01-07 01:59:29,593 - INFO - Loaded 50000 labels
+2026-01-07 01:59:29,593 - INFO - 
+================================================================================
+2026-01-07 01:59:29,593 - INFO - Comparing PCA results across norms: ['l1', 'l2', 'linf']
+2026-01-07 01:59:29,593 - INFO - ================================================================================
+
+2026-01-07 01:59:29,593 - INFO - Loading results for all norms...
+2026-01-07 01:59:29,594 - INFO -   Loaded l1: (50000, 5)
+2026-01-07 01:59:29,594 - INFO -   Loaded l2: (50000, 4)
+2026-01-07 01:59:29,652 - INFO -   Loaded linf: (50000, 1000)
+2026-01-07 01:59:29,652 - INFO - Creating scree plot comparison...
+2026-01-07 01:59:29,861 - INFO - Saved scree comparison to results_imagenet_stats/plots/pca_norm_comparison_scree.png
+2026-01-07 01:59:29,861 - INFO - Creating 2D projection comparison...
+2026-01-07 01:59:30,183 - INFO - Saved 2D projection comparison to results_imagenet_stats/plots/pca_norm_comparison_2d_projections.png
+2026-01-07 01:59:30,183 - INFO - Creating clustering metrics comparison...
+2026-01-07 01:59:30,492 - INFO - Saved clustering metrics comparison to results_imagenet_stats/plots/pca_norm_comparison_clustering_metrics.png
+2026-01-07 01:59:30,492 - INFO - Computing projection correlations across norms...
+2026-01-07 02:01:16,313 - INFO - Loading ImageNet labels...
+2026-01-07 02:01:16,364 - INFO - Loaded 50000 labels
+2026-01-07 02:01:16,364 - INFO - 
+================================================================================
+2026-01-07 02:01:16,364 - INFO - Comparing PCA results across norms: ['l1', 'l2', 'linf']
+2026-01-07 02:01:16,364 - INFO - ================================================================================
+
+2026-01-07 02:01:16,364 - INFO - Loading results for all norms...
+2026-01-07 02:01:16,365 - INFO -   Loaded l1: (50000, 5)
+2026-01-07 02:01:16,366 - INFO -   Loaded l2: (50000, 4)
+2026-01-07 02:01:16,423 - INFO -   Loaded linf: (50000, 1000)
+2026-01-07 02:01:16,423 - INFO - Creating scree plot comparison...
+2026-01-07 02:01:16,618 - INFO - Saved scree comparison to results_imagenet_stats/plots/pca_norm_comparison_scree.png
+2026-01-07 02:01:16,618 - INFO - Creating 2D projection comparison...
+2026-01-07 02:01:16,934 - INFO - Saved 2D projection comparison to results_imagenet_stats/plots/pca_norm_comparison_2d_projections.png
+2026-01-07 02:01:16,934 - INFO - Creating clustering metrics comparison...
+2026-01-07 02:01:17,232 - INFO - Saved clustering metrics comparison to results_imagenet_stats/plots/pca_norm_comparison_clustering_metrics.png
+2026-01-07 02:01:17,232 - INFO - Computing projection correlations across norms...
+2026-01-07 02:01:17,232 - INFO - Limiting correlation analysis to 4 components (limited by available dimensions).
+2026-01-07 02:01:17,234 - INFO -   l1 vs l2: avg correlation = 0.9553
+2026-01-07 02:01:17,238 - INFO -   l1 vs linf: avg correlation = 0.3934
+2026-01-07 02:01:17,241 - INFO -   l2 vs linf: avg correlation = 0.4777
+2026-01-07 02:01:17,241 - INFO - Creating projection correlation plot...
+2026-01-07 02:01:17,358 - INFO - Saved correlation plot to results_imagenet_stats/plots/pca_norm_comparison_correlations.png
+2026-01-07 02:01:17,358 - INFO - Creating summary comparison table...
+2026-01-07 02:02:21,231 - INFO - Loading ImageNet labels...
+2026-01-07 02:02:21,282 - INFO - Loaded 50000 labels
+2026-01-07 02:02:21,282 - INFO - 
+================================================================================
+2026-01-07 02:02:21,282 - INFO - Comparing PCA results across norms: ['l1', 'l2', 'linf']
+2026-01-07 02:02:21,282 - INFO - ================================================================================
+
+2026-01-07 02:02:21,282 - INFO - Loading results for all norms...
+2026-01-07 02:02:21,283 - INFO -   Loaded l1: (50000, 5)
+2026-01-07 02:02:21,284 - INFO -   Loaded l2: (50000, 4)
+2026-01-07 02:02:21,339 - INFO -   Loaded linf: (50000, 1000)
+2026-01-07 02:02:21,339 - INFO - Creating scree plot comparison...
+2026-01-07 02:02:21,539 - INFO - Saved scree comparison to results_imagenet_stats/plots/pca_norm_comparison_scree.png
+2026-01-07 02:02:21,539 - INFO - Creating 2D projection comparison...
+2026-01-07 02:02:21,856 - INFO - Saved 2D projection comparison to results_imagenet_stats/plots/pca_norm_comparison_2d_projections.png
+2026-01-07 02:02:21,856 - INFO - Creating clustering metrics comparison...
+2026-01-07 02:02:22,155 - INFO - Saved clustering metrics comparison to results_imagenet_stats/plots/pca_norm_comparison_clustering_metrics.png
+2026-01-07 02:02:22,155 - INFO - Computing projection correlations across norms...
+2026-01-07 02:02:22,155 - INFO - Limiting correlation analysis to 4 components (limited by available dimensions).
+2026-01-07 02:02:22,157 - INFO -   l1 vs l2: avg correlation = 0.9553
+2026-01-07 02:02:22,161 - INFO -   l1 vs linf: avg correlation = 0.3934
+2026-01-07 02:02:22,164 - INFO -   l2 vs linf: avg correlation = 0.4777
+2026-01-07 02:02:22,165 - INFO - Creating projection correlation plot...
+2026-01-07 02:02:22,283 - INFO - Saved correlation plot to results_imagenet_stats/plots/pca_norm_comparison_correlations.png
+2026-01-07 02:02:22,283 - INFO - Creating summary comparison table...
+2026-01-07 02:02:22,283 - INFO - Saved comparison summary to results_imagenet_stats/pca_norm_comparison_metrics.json
+2026-01-07 02:02:22,283 - INFO - 
+================================================================================
+2026-01-07 02:02:22,283 - INFO - SUMMARY COMPARISON
+2026-01-07 02:02:22,283 - INFO - ================================================================================
+2026-01-07 02:02:22,283 - INFO - 
+L1:
+2026-01-07 02:02:22,283 - INFO -   Components for 95% variance: 5
+2026-01-07 02:02:22,283 - INFO -   First PC variance: 0.5381
+2026-01-07 02:02:22,283 - INFO -   Top 5 cumulative variance: 0.9592
+2026-01-07 02:02:22,283 - INFO -   Separability ratio: 1.2167
+2026-01-07 02:02:22,283 - INFO - 
+L2:
+2026-01-07 02:02:22,283 - INFO -   Components for 95% variance: 4
+2026-01-07 02:02:22,283 - INFO -   First PC variance: 0.5299
+2026-01-07 02:02:22,283 - INFO -   Top 5 cumulative variance: 0.9493
+2026-01-07 02:02:22,283 - INFO -   Separability ratio: 1.0900
+2026-01-07 02:02:22,283 - INFO - 
+LINF:
+2026-01-07 02:02:22,283 - INFO -   Components for 95% variance: 1000
+2026-01-07 02:02:22,283 - INFO -   First PC variance: 0.4987
+2026-01-07 02:02:22,283 - INFO -   Top 5 cumulative variance: 0.6713
+2026-01-07 02:02:22,283 - INFO -   Silhouette (10 comp): -0.4409
+2026-01-07 02:02:22,283 - INFO -   Davies-Bouldin (10 comp): 12.1494
+2026-01-07 02:02:22,283 - INFO -   Calinski-Harabasz (10 comp): 2.33
+2026-01-07 02:02:22,283 - INFO -   Separability ratio: 1.5308
+2026-01-07 02:02:22,283 - INFO - 
+CORRELATIONS:
+2026-01-07 02:02:22,283 - INFO -   l1_vs_l2: 0.9553
+2026-01-07 02:02:22,283 - INFO -   l1_vs_linf: 0.3934
+2026-01-07 02:02:22,283 - INFO -   l2_vs_linf: 0.4777
+2026-01-07 02:02:22,283 - INFO - 
+================================================================================
+2026-01-07 02:02:22,287 - INFO - 
+Comparison complete!
+2026-01-07 08:58:34,381 - INFO - Loading ImageNet labels...
+2026-01-07 08:58:34,432 - INFO - Loaded 50000 labels
+2026-01-07 08:58:34,432 - INFO - 
+================================================================================
+2026-01-07 08:58:34,432 - INFO - Comparing PCA results across norms: ['l1', 'l2', 'linf']
+2026-01-07 08:58:34,432 - INFO - ================================================================================
+
+2026-01-07 08:58:34,432 - INFO - Loading results for all norms...
+2026-01-07 08:58:34,433 - INFO -   Loaded l1: (50000, 5)
+2026-01-07 08:58:34,434 - INFO -   Loaded l2: (50000, 4)
+2026-01-07 08:58:34,489 - INFO -   Loaded linf: (50000, 1000)
+2026-01-07 08:58:34,489 - INFO - Creating scree plot comparison...
+2026-01-07 08:58:34,689 - INFO - Saved scree comparison to results_imagenet_stats/plots/pca_norm_comparison_scree.png
+2026-01-07 08:58:34,689 - INFO - Creating 2D projection comparison...
+2026-01-07 08:58:35,012 - INFO - Saved 2D projection comparison to results_imagenet_stats/plots/pca_norm_comparison_2d_projections.png
+2026-01-07 08:58:35,012 - INFO - Creating clustering metrics comparison...
+2026-01-07 08:58:35,316 - INFO - Saved clustering metrics comparison to results_imagenet_stats/plots/pca_norm_comparison_clustering_metrics.png
+2026-01-07 08:58:35,316 - INFO - Computing projection correlations across norms...
+2026-01-07 08:58:35,316 - INFO - Limiting correlation analysis to 4 components (limited by available dimensions).
+2026-01-07 08:58:35,318 - INFO -   l1 vs l2: avg correlation = 0.9553
+2026-01-07 08:58:35,322 - INFO -   l1 vs linf: avg correlation = 0.3934
+2026-01-07 08:58:35,325 - INFO -   l2 vs linf: avg correlation = 0.4777
+2026-01-07 08:58:35,325 - INFO - Creating projection correlation plot...
+2026-01-07 08:58:35,442 - INFO - Saved correlation plot to results_imagenet_stats/plots/pca_norm_comparison_correlations.png
+2026-01-07 08:58:35,442 - INFO - Creating summary comparison table...
+2026-01-07 08:58:35,442 - INFO - Saved comparison summary to results_imagenet_stats/pca_norm_comparison_metrics.json
+2026-01-07 08:58:35,442 - INFO - 
+================================================================================
+2026-01-07 08:58:35,442 - INFO - SUMMARY COMPARISON
+2026-01-07 08:58:35,442 - INFO - ================================================================================
+2026-01-07 08:58:35,442 - INFO - 
+L1:
+2026-01-07 08:58:35,442 - INFO -   Components for 95% variance: 5
+2026-01-07 08:58:35,442 - INFO -   First PC variance: 0.5381
+2026-01-07 08:58:35,442 - INFO -   Top 5 cumulative variance: 0.9592
+2026-01-07 08:58:35,442 - INFO -   Separability ratio: 1.2167
+2026-01-07 08:58:35,443 - INFO - 
+L2:
+2026-01-07 08:58:35,443 - INFO -   Components for 95% variance: 4
+2026-01-07 08:58:35,443 - INFO -   First PC variance: 0.5299
+2026-01-07 08:58:35,443 - INFO -   Top 5 cumulative variance: 0.9493
+2026-01-07 08:58:35,443 - INFO -   Separability ratio: 1.0900
+2026-01-07 08:58:35,443 - INFO - 
+LINF:
+2026-01-07 08:58:35,443 - INFO -   Components for 95% variance: 1000
+2026-01-07 08:58:35,443 - INFO -   First PC variance: 0.4987
+2026-01-07 08:58:35,443 - INFO -   Top 5 cumulative variance: 0.6713
+2026-01-07 08:58:35,443 - INFO -   Silhouette (10 comp): -0.4610
+2026-01-07 08:58:35,443 - INFO -   Davies-Bouldin (10 comp): 12.2749
+2026-01-07 08:58:35,443 - INFO -   Calinski-Harabasz (10 comp): 2.34
+2026-01-07 08:58:35,443 - INFO -   Separability ratio: 1.5308
+2026-01-07 08:58:35,443 - INFO - 
+CORRELATIONS:
+2026-01-07 08:58:35,443 - INFO -   l1_vs_l2: 0.9553
+2026-01-07 08:58:35,443 - INFO -   l1_vs_linf: 0.3934
+2026-01-07 08:58:35,443 - INFO -   l2_vs_linf: 0.4777
+2026-01-07 08:58:35,443 - INFO - 
+================================================================================
+2026-01-07 08:58:35,446 - INFO - 
+Comparison complete!

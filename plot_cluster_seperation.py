@@ -61,7 +61,7 @@ def plot_global_stats(norm):
     plt.scatter(x, maxs, c="green", label="Max")
     plt.xticks(x, labels)
     plt.ylabel("Distance")
-    plt.title(f"{norm.upper()} global mean ± std (1000 classes)")
+    plt.title(f"{norm} global statistics") 
     plt.legend()
     plt.tight_layout()
 
@@ -150,8 +150,8 @@ if __name__ == "__main__":
     for norm in norms:
         # 1. Plot histograms and ECDF for selected classes
         
-        plot_histograms(norm, 457)
-        plot_ecdf(norm, 457)
+        plot_histograms(norm, 116)
+        plot_ecdf(norm, 116)
 
         # 2. Global mean ± std / min / max
         plot_global_stats(norm)

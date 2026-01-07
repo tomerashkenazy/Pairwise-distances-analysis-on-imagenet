@@ -22,7 +22,7 @@ def nn_classification(
     eval_dir,
     num_images=None,
     dist_matrix_path="results_imagenet_stats/val_dist_matrix_REAL.pt",
-    superclass_mat_path="/home/tomer_a/Documents/epsilon_bounded_contstim/utils/adjacency_matrix.npy",
+    superclass_mat_path="/home/tomer_a/Documents/epsilon_bounded_contstim/utils/imagenet_80_superclass_matrix.npy",
     k_list=[1]
 ):
 
@@ -93,15 +93,28 @@ def nn_classification(
 
     return results_list
 
+def build_pca_distance_matrix(norm, k=None):
+    Z = torch.load(f"results_imagenet_stats/val_pca_transformed_{norm}.pt").float()
+    if k is not None:
+        Z = Z[:, :k]
+    D = torch.cdist(Z, Z)
+    torch.save(D, f"results_imagenet_stats/val_dist_matrix_pca_{norm}.pt")
+
 if __name__ == "__main__":
+    build_pca_distance_matrix("l1", k=5)
+    build_pca_distance_matrix("l2", k=4)
+    build_pca_distance_matrix("linf", k=10)   # zoomed semantic subspace
+
     norms = ['l1', 'l2', 'linf']
     results = {}
     for norm in norms:
         logger.info(f"Computing distance matrix with p = {norm}")
         results[norm] = nn_classification(
-            eval_dir="/mnt/data/datasets/imagenet/val/",
-            dist_matrix_path=f"results_imagenet_stats/val_dist_matrix_{norm}.pt",
-            k_list=list(range(1, 11))
+    eval_dir="/mnt/data/datasets/imagenet/val/",
+    dist_matrix_path=f"results_imagenet_stats/val_dist_matrix_pca_{norm}.pt",
+    k_list=list(range(1, 11))
+)
+        logger.info(f"Done with norm {norm}"
         )
 
     print("NN results:", results)

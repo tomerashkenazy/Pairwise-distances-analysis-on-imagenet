@@ -1,0 +1,142 @@
+2026-01-06 23:59:09,855 - INFO - 
+================================================================================
+2026-01-06 23:59:09,855 - INFO - Processing norm: l1
+2026-01-06 23:59:09,855 - INFO - ================================================================================
+
+2026-01-06 23:59:09,855 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l1.pt
+2026-01-06 23:59:12,431 - INFO - Distance matrix shape: (50000, 50000)
+2026-01-06 23:59:12,431 - INFO - Distance matrix memory: 9.31 GB
+2026-01-06 23:59:12,431 - INFO - First pass: determining number of components...
+2026-01-06 23:59:14,493 - INFO -   Fitted batch 1/50
+2026-01-07 00:09:53,682 - INFO - 
+================================================================================
+2026-01-07 00:09:53,682 - INFO - Processing norm: l1
+2026-01-07 00:09:53,683 - INFO - ================================================================================
+
+2026-01-07 00:09:53,683 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l1.pt
+2026-01-07 00:09:57,993 - INFO - Distance matrix shape: (50000, 50000)
+2026-01-07 00:09:57,993 - INFO - Distance matrix memory: 9.31 GB
+2026-01-07 00:09:57,993 - INFO - First pass: determining number of components...
+2026-01-07 00:10:00,025 - INFO -   Fitted batch 1/50
+2026-01-07 01:15:31,068 - INFO - 
+================================================================================
+2026-01-07 01:15:31,068 - INFO - Processing norm: l1
+2026-01-07 01:15:31,068 - INFO - ================================================================================
+
+2026-01-07 01:15:31,068 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l1.pt
+2026-01-07 01:15:35,284 - INFO - Distance matrix shape: (50000, 50000)
+2026-01-07 01:15:35,284 - INFO - Distance matrix memory: 9.31 GB
+2026-01-07 01:15:35,284 - INFO - First pass: determining number of components...
+2026-01-07 01:15:37,343 - INFO -   Fitted batch 1/50
+2026-01-07 01:18:10,516 - INFO - 
+================================================================================
+2026-01-07 01:18:10,517 - INFO - Processing norm: l1
+2026-01-07 01:18:10,517 - INFO - ================================================================================
+
+2026-01-07 01:18:10,517 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l1.pt
+2026-01-07 01:18:14,749 - INFO - Distance matrix shape: (50000, 50000)
+2026-01-07 01:18:14,749 - INFO - Distance matrix memory: 9.31 GB
+2026-01-07 01:18:14,749 - INFO - First pass: determining number of components...
+2026-01-07 01:18:17,571 - INFO -   Fitted batch 1/50
+2026-01-07 01:19:02,392 - INFO - 
+================================================================================
+2026-01-07 01:19:02,394 - INFO - Processing norm: l1
+2026-01-07 01:19:02,394 - INFO - ================================================================================
+
+2026-01-07 01:19:18,439 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l1.pt
+2026-01-07 01:19:25,355 - INFO - Distance matrix shape: (50000, 50000)
+2026-01-07 01:19:25,355 - INFO - Distance matrix memory: 9.31 GB
+2026-01-07 01:19:25,356 - INFO - First pass: determining number of components...
+2026-01-07 01:19:33,589 - INFO -   Fitted batch 1/50
+2026-01-07 01:21:26,688 - INFO -   Fitted batch 11/50
+2026-01-07 01:22:57,224 - INFO -   Fitted batch 21/50
+2026-01-07 01:24:27,393 - INFO -   Fitted batch 31/50
+2026-01-07 01:25:57,451 - INFO -   Fitted batch 41/50
+2026-01-07 01:27:55,073 - INFO - Number of components for 95.0% variance: 5
+2026-01-07 01:27:55,073 - INFO - Actual variance captured: 96.01%
+2026-01-07 01:27:55,074 - INFO - Second pass: fitting PCA with 5 components...
+2026-01-07 01:27:57,234 - INFO -   Fitted batch 1/50
+2026-01-07 01:28:27,297 - INFO -   Fitted batch 11/50
+2026-01-07 01:28:58,315 - INFO -   Fitted batch 21/50
+2026-01-07 01:29:29,250 - INFO -   Fitted batch 31/50
+2026-01-07 01:30:00,051 - INFO -   Fitted batch 41/50
+2026-01-07 01:30:29,327 - INFO - Transforming data...
+2026-01-07 01:30:29,404 - INFO -   Transformed batch 1/50
+2026-01-07 01:30:30,170 - INFO -   Transformed batch 11/50
+2026-01-07 01:30:30,926 - INFO -   Transformed batch 21/50
+2026-01-07 01:30:31,660 - INFO -   Transformed batch 31/50
+2026-01-07 01:30:32,392 - INFO -   Transformed batch 41/50
+2026-01-07 01:30:33,052 - INFO - Saving transformed data to results_imagenet_stats/val_pca_transformed_l1.pt
+2026-01-07 01:30:33,072 - INFO - Saving PCA model to results_imagenet_stats/val_pca_model_l1.pkl
+2026-01-07 01:30:33,074 - INFO - Saving metadata to results_imagenet_stats/val_pca_metadata_l1.json
+2026-01-07 01:30:33,075 - INFO - PCA complete! Reduced from 50000 to 5 dimensions
+2026-01-07 01:30:33,075 - INFO - Top 10 explained variance ratios: [0.53809474 0.33564361 0.0540624  0.02129846 0.01008565]
+2026-01-07 01:30:33,252 - INFO - 
+================================================================================
+2026-01-07 01:30:33,252 - INFO - Processing norm: l2
+2026-01-07 01:30:33,252 - INFO - ================================================================================
+
+2026-01-07 01:30:33,252 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_l2.pt
+2026-01-07 01:30:37,506 - INFO - Distance matrix shape: (50000, 50000)
+2026-01-07 01:30:37,506 - INFO - Distance matrix memory: 9.31 GB
+2026-01-07 01:30:37,506 - INFO - First pass: determining number of components...
+2026-01-07 01:30:39,641 - INFO -   Fitted batch 1/50
+2026-01-07 01:32:09,986 - INFO -   Fitted batch 11/50
+2026-01-07 01:33:40,552 - INFO -   Fitted batch 21/50
+2026-01-07 01:35:11,236 - INFO -   Fitted batch 31/50
+2026-01-07 01:36:42,090 - INFO -   Fitted batch 41/50
+2026-01-07 01:38:09,191 - INFO - Number of components for 95.0% variance: 4
+2026-01-07 01:38:09,191 - INFO - Actual variance captured: 95.25%
+2026-01-07 01:38:09,191 - INFO - Second pass: fitting PCA with 4 components...
+2026-01-07 01:38:11,472 - INFO -   Fitted batch 1/50
+2026-01-07 01:38:42,885 - INFO -   Fitted batch 11/50
+2026-01-07 01:39:13,881 - INFO -   Fitted batch 21/50
+2026-01-07 01:39:44,891 - INFO -   Fitted batch 31/50
+2026-01-07 01:40:15,965 - INFO -   Fitted batch 41/50
+2026-01-07 01:40:43,893 - INFO - Transforming data...
+2026-01-07 01:40:43,958 - INFO -   Transformed batch 1/50
+2026-01-07 01:40:44,691 - INFO -   Transformed batch 11/50
+2026-01-07 01:40:45,447 - INFO -   Transformed batch 21/50
+2026-01-07 01:40:46,200 - INFO -   Transformed batch 31/50
+2026-01-07 01:40:46,953 - INFO -   Transformed batch 41/50
+2026-01-07 01:40:47,631 - INFO - Saving transformed data to results_imagenet_stats/val_pca_transformed_l2.pt
+2026-01-07 01:40:47,632 - INFO - Saving PCA model to results_imagenet_stats/val_pca_model_l2.pkl
+2026-01-07 01:40:47,634 - INFO - Saving metadata to results_imagenet_stats/val_pca_metadata_l2.json
+2026-01-07 01:40:47,634 - INFO - PCA complete! Reduced from 50000 to 4 dimensions
+2026-01-07 01:40:47,635 - INFO - Top 10 explained variance ratios: [0.52987265 0.34949655 0.05355844 0.01636723]
+2026-01-07 01:40:47,821 - INFO - 
+================================================================================
+2026-01-07 01:40:47,821 - INFO - Processing norm: linf
+2026-01-07 01:40:47,821 - INFO - ================================================================================
+
+2026-01-07 01:40:47,821 - INFO - Loading distance matrix from results_imagenet_stats/val_dist_matrix_linf.pt
+2026-01-07 01:40:52,078 - INFO - Distance matrix shape: (50000, 50000)
+2026-01-07 01:40:52,078 - INFO - Distance matrix memory: 9.31 GB
+2026-01-07 01:40:52,078 - INFO - First pass: determining number of components...
+2026-01-07 01:40:54,197 - INFO -   Fitted batch 1/50
+2026-01-07 01:42:25,020 - INFO -   Fitted batch 11/50
+2026-01-07 01:43:55,820 - INFO -   Fitted batch 21/50
+2026-01-07 01:45:27,279 - INFO -   Fitted batch 31/50
+2026-01-07 01:46:58,833 - INFO -   Fitted batch 41/50
+2026-01-07 01:48:21,174 - INFO - Number of components for 95.0% variance: 1000
+2026-01-07 01:48:21,174 - INFO - Actual variance captured: 88.84%
+2026-01-07 01:48:21,174 - INFO - Second pass: fitting PCA with 1000 components...
+2026-01-07 01:48:23,357 - INFO -   Fitted batch 1/50
+2026-01-07 01:49:55,055 - INFO -   Fitted batch 11/50
+2026-01-07 01:51:26,808 - INFO -   Fitted batch 21/50
+2026-01-07 01:52:58,130 - INFO -   Fitted batch 31/50
+2026-01-07 01:54:29,477 - INFO -   Fitted batch 41/50
+2026-01-07 01:55:52,088 - INFO - Transforming data...
+2026-01-07 01:55:52,430 - INFO -   Transformed batch 1/50
+2026-01-07 01:55:56,340 - INFO -   Transformed batch 11/50
+2026-01-07 01:56:00,220 - INFO -   Transformed batch 21/50
+2026-01-07 01:56:04,113 - INFO -   Transformed batch 31/50
+2026-01-07 01:56:08,005 - INFO -   Transformed batch 41/50
+2026-01-07 01:56:11,497 - INFO - Saving transformed data to results_imagenet_stats/val_pca_transformed_linf.pt
+2026-01-07 01:56:11,602 - INFO - Saving PCA model to results_imagenet_stats/val_pca_model_linf.pkl
+2026-01-07 01:56:12,117 - INFO - Saving metadata to results_imagenet_stats/val_pca_metadata_linf.json
+2026-01-07 01:56:12,123 - INFO - PCA complete! Reduced from 50000 to 1000 dimensions
+2026-01-07 01:56:12,123 - INFO - Top 10 explained variance ratios: [0.49867294 0.11318559 0.02454252 0.01783305 0.01704625 0.01507078
+ 0.01108633 0.01042639 0.00804172 0.0074352 ]
+2026-01-07 01:56:12,328 - INFO - 
+All norms processed successfully!
