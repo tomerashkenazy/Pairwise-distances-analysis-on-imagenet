@@ -144,8 +144,8 @@ Note: Requires ImageNet devkit with meta.mat and wordnet.is_a.txt files.
 ├── imagenet_class_stats.py          # Compute per-class statistics
 ├── visualize_class_stats.py         # Visualize class statistics
 ├── imagenet_hist.py                 # Distribution analysis
-├── cluster_seperation.py            # Cluster quality metrics
-├── plot_cluster_seperation.py       # Plot cluster separation results
+├── cluster_seperation.py            # Cluster quality metrics (note: filename has typo)
+├── plot_cluster_seperation.py       # Plot cluster separation results (note: filename has typo)
 ├── build_sup_mat.py                 # Build superclass matrix
 ├── analyze_pca.py                   # PCA analysis utilities
 ├── compare_norms_pca.py             # Compare PCA across norms
